@@ -1,0 +1,15 @@
+npx create-react-app reduxhook
+npm i redux react-redux redux-thunk
+
+added bootstrap in 'index.html'
+Component folder-> 'Navbar.js'(isme right hand side me balance show hota h) and 'Shop.js'
+State folder-> 
+    Action-creators folder(parents)->
+        'actionCreators.js' (actions are deposit and withdraw money)
+        'index.js' (to comine all actionCreators)
+    Reducers folder(Ashok)->
+        'amountReducer.js' (it takes state and action and return new state)
+        'index.js' (to combine all the reducers)
+    'store.js' (Creating a Redux store with middleware)
+
+Next step is to wrap 'index.js' to {provide the Redux store to the application}
